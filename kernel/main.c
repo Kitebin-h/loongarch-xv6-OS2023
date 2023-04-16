@@ -15,6 +15,7 @@ main()
 {
    if(cpuid() == 0){
     consoleinit();
+    printf("cpu0: starting xv6\n");
     printfinit();
     
     kinit();         // physical page allocator
