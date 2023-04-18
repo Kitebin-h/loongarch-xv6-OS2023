@@ -95,3 +95,10 @@ sys_uptime(void)
   release(&tickslock);
   return xticks;
 }
+
+// return cpu id
+uint64
+sys_getcpuid() 
+{
+  return getcpuid();
+}

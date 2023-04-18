@@ -648,3 +648,9 @@ procdump(void)
     printf("\n");
   }
 }
+
+int getcpuid() 
+{
+  int id = r_tp();
+  return id;  
+}

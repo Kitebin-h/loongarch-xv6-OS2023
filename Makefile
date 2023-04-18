@@ -119,6 +119,7 @@ UPROGS=\
 	$U/_usertests\
 	$U/_my-app\
 	$U/_print-pid\
+	$U/_pcpuid\
 #	$U/_grind\
 	$U/_wc\
 	$U/_zombie\
