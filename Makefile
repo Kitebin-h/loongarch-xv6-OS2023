@@ -120,6 +120,7 @@ UPROGS=\
 	$U/_my-app\
 	$U/_print-pid\
 	$U/_pcpuid\
+	$U/_my-app-fork\
 #	$U/_grind\
 	$U/_wc\
 	$U/_zombie\
